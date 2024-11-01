@@ -1,0 +1,158 @@
+/*===============Stackoverflow-3-2015 Start========================*/
+
+.stack-info-outer {
+    border: 1px solid #e0e0e0;
+    display: inline-block;
+    padding: 9px 10px 15px;
+    width: auto;
+}
+
+.stack-info-outer .stack-user-name {
+    color: #000;
+    font-size: 16px;
+    margin: 0 0 7px;
+}
+
+
+
+.stack-info-outer .stack-user-name a {
+    color: #000;
+    display: block;
+    font-family: sans-serif;
+    outline: medium none;
+    text-align: center;
+}
+
+
+.stack-info-outer .stack-user-name a:hover {
+    text-decoration: none;
+}
+
+.stack-reputation {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.stack-user-image > a::after, .stack-user-image > a::before {
+    clear: both;
+    content: "";
+    display: block;
+    overflow: hidden;
+}
+
+.stack-info-outer .stack-user-image > a {
+    display: block;
+}
+
+
+
+.stack-info-outer .stack-user-image {
+    background: #000 none repeat scroll 0 0;
+    margin: 0 auto;
+    width: 164px;
+}
+
+
+.stack-user-image img {
+    width: 100%;
+}
+
+
+.stack-reputation span {
+    color: #232323;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+
+.badges-details .broz-badge {
+    float: left;
+    margin-right: 5px;
+}
+
+
+.badges-details .broz-badge span {
+    font-family: sans-serif;
+    font-size: 12px;
+	float:left;
+}
+
+
+.badges-details::after, .badges-details::before {
+    clear: both;
+    content: "";
+    display: block;
+    overflow: hidden;
+}
+
+
+
+.stack-info-outer .reputation-txt {
+    font-size: 11px !important;
+}
+
+.stack-info-outer .reputation-count {
+    font-weight: 700;
+}
+
+.stack-info-outer .badges-details {
+    margin-top: 10px;
+}
+
+.badges-details .bronze-badge {
+    background: #f9ebe1 none repeat scroll 0 0;
+    border: 1px solid #f1decc;
+    padding: 2px 7px;
+}
+
+
+.badges-details .bronze-badge span.bronze-icon {
+    background: #e3b68a none repeat scroll 0 0;
+    border-radius: 100%;
+    display: block;
+    height: 7px;
+    margin: 5px 6px 0 0;
+    width: 7px;
+}
+
+
+.badges-details .silver-badge span.silver-badge-icon {
+    background: #c5c5c5 none repeat scroll 0 0;
+    border-radius: 100%;
+    display: block;
+    height: 7px;
+    margin: 5px 6px 0 0;
+    width: 7px;
+}
+
+
+.badges-details .silver-badge {
+    background: #edeeef none repeat scroll 0 0;
+    border: 1px solid #d1d1d1;
+    padding: 2px 7px;
+}
+
+
+
+.badges-details .gold-badge {
+    background: #fee3b7 none repeat scroll 0 0;
+    border: 1px solid #e5ae29;
+    padding: 2px 7px;
+	margin-right:0px;
+}
+
+
+.badges-details .gold-badge span.gold-badge-icon {
+    background: #be8932 none repeat scroll 0 0;
+    border-radius: 100%;
+    display: block;
+    height: 7px;
+    margin: 5px 6px 0 0;
+    width: 7px;
+}
+
+
+
+
+
+/*===============Stackoverflow-3-2015 CLose========================*/
